@@ -1,0 +1,15 @@
+{
+  "name": "kavandad93/auth",
+  "description": "Central authentication and SSO service for Kadad",
+  "type": "project",
+  "require": {
+    "php": "^8.2",
+    "ext-pdo": "*",
+    "ext-json": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Kadad\\Auth\\": "src/"
+    }
+  }
+}
